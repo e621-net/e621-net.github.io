@@ -1,16 +1,12 @@
-#page {
-    display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-}
-
-#page a, a:visited, a:link {
+h1 {
     text-decoration: none;
     color: #b4c7d9;
 }
 
-#page a:hover {
-    color: #eff7ff;
+#page {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 #main {
@@ -29,7 +25,13 @@
     padding: 0;
 }
 
-#navbar li, a {
+#navbar li, a, a:visited, a:link {
+    text-decoration: none;
+    color: #b4c7d9;
     display: inline;
     padding: 0.25rem;
+}
+
+#navbar a:hover {
+    color: #eff7ff;
 }
