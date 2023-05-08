@@ -1,16 +1,16 @@
-a, a:visited, a:link {
-    text-decoration: none;
-    color: #b4c7d9;
-}
-
-a:hover {
-    color: #eff7ff;
-}
-
 #page {
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+}
+
+#page a, a:visited, a:link {
+    text-decoration: none;
+    color: #b4c7d9;
+}
+
+#page a:hover {
+    color: #eff7ff;
 }
 
 #main {
