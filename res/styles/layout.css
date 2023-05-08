@@ -20,13 +20,16 @@
     padding: 0;
 }
 
-#navbar li, a {
-    color: #b4c7d9;
+#navbar li {
     text-decoration: none;
     display: inline;
     padding: 0.25rem;
 }
 
-#navbar a:hover {
+a:hover {
     color: #d9e8f7;
+}
+
+a, a:visited, a:link {
+    color: #b4c7d9;
 }
