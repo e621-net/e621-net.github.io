@@ -1,3 +1,12 @@
+a:hover {
+    color: #d9e8f7;
+}
+
+a, a:visited, a:link {
+    text-decoration: none;
+    color: #b4c7d9;
+}
+
 #page {
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,16 +29,7 @@
     padding: 0;
 }
 
-#navbar li {
-    text-decoration: none;
+#navbar li, a {
     display: inline;
     padding: 0.25rem;
-}
-
-a:hover {
-    color: #d9e8f7;
-}
-
-a, a:visited, a:link {
-    color: #b4c7d9;
 }
